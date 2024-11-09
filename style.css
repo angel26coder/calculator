@@ -1,6 +1,7 @@
 html,
 body {
-    margin: 60px;
+    margin: 40;
+    padding: 0;
     border: 0;
     box-sizing: border-box;
     display: flex;
@@ -26,7 +27,9 @@ body {
 }
 
 .writePartContainer {
-    height: 80px;
+    font-size: 3rem;
+    font-family: orbitron;
+    height: 100px;
     width: 460px;
     background-color: black;
     color: white;
@@ -47,7 +50,9 @@ body {
     justify-content: center;
 }
 
-.greenKey {
+button {
+    font-size: 3rem;
+    font-family: orbitron;
     background-color: var(--main-color);
     height: 107px;
     aspect-ratio: 1;
@@ -55,9 +60,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
-.redKey {
+#C {
+    font-size: 3rem;
+    font-family: orbitron;
     background-color: rgb(240, 30, 30);
     height: 107px;
     aspect-ratio: 1;
@@ -65,9 +73,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+
 }
 
-.yellowKey {
+#iqual {
+    font-size: 3rem;
+    font-family: orbitron;
     background-color: rgb(255, 255, 31);
     height: 107px;
     aspect-ratio: 1;
@@ -75,10 +87,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    cursor: pointer;
 }
 
-.blueKey {
+#add,
+#divide,
+#multiple,
+#less {
+    font-size: 3rem;
+    font-family: orbitron;
     background-color: var(--secondary-color);
     height: 107px;
     aspect-ratio: 1;
@@ -86,11 +103,5 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
-}
-
-p {
-    font-size: 40px;
-    font-weight: 900;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    cursor: pointer;
 }
